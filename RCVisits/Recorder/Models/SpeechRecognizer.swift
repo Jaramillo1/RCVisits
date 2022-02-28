@@ -39,7 +39,7 @@ class SpeechRecognizer: ObservableObject {
     init() {
         recognizer = SFSpeechRecognizer()
         
-        // true:  Ensures the recording is done locally w/o using network.
+        // true:  Ensures the recording is done locally w/o using network.  
         
         recognizer?.supportsOnDeviceRecognition = true
         
